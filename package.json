@@ -4,7 +4,9 @@
   "description": "Complete node.js guide",
   "main": "app.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
